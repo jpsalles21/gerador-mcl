@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import os
 
 # ==== Parâmetros do Método Congruente Linear ====
-X0 = 12345         # Semente
-a = 1103515245     # Multiplicador
-c = 12345          # Incremento
-M = 2**31          # Módulo
+X0 = 987654321         # Semente
+a = 1664525     # Multiplicador
+c = 1013904223          # Incremento
+M = 2**32         # Módulo
 n = 1000           # Quantidade de números
 
 # ==== Função do MCL ====
